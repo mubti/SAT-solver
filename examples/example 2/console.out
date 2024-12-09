@@ -1,0 +1,18 @@
+c
+c This is glucose-syrup 4.2.1 (glucose in many threads) --  based on MiniSAT (Many thanks to MiniSAT team)
+c
+c ========================================[ Problem Statistics ]===========================================
+c |                                                                                                       |
+c |  Number of variables:             4                                                                   |
+c |  Number of clauses:               6                                                                   |
+c |  Parse time:                   0.00 s                                                                 |
+c |                                                                                                       |
+c |  Simplification time:          0.00 s                                                                 |
+c |                                                                                                       |
+c =========================================================================================================
+Solved by unit propagation
+c real time : 0.000209093 s
+c cpu time  : 0.000928 s
+
+s UNSATISFIABLE
+

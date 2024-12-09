@@ -1,0 +1,68 @@
+c
+c This is glucose-syrup 4.2.1 (glucose in many threads) --  based on MiniSAT (Many thanks to MiniSAT team)
+c
+c ========================================[ Problem Statistics ]===========================================
+c |                                                                                                       |
+c |  Number of variables:             5                                                                   |
+c |  Number of clauses:              22                                                                   |
+c |  Parse time:                   0.00 s                                                                 |
+c |                                                                                                       |
+c |  Simplification time:          0.00 s                                                                 |
+c |                                                                                                       |
+c |  Automatic Adjustement of the number of solvers. MaxMemory=20000, MaxCores=  4.                       |
+c |  One Solver is taking 4.48Mb... Let's take 4 solvers for this run (max 40% of the maxmemory).       |
+c |  Generating clones                                                                                    |
+c |  all clones generated. Memory =   6.05Mb.                                                             |
+c ========================================================================================================|
+c last restart ## conflicts  :  0 0
+c Thread 0 is 100% pure glucose! First thread to finish! (SAT answer).
+c Total Memory so far : 6.05Mb
+c
+c real time : 0.000507116 s
+c cpu time  : 0.001013 s
+c
+c
+c
+c |---------------------------------------- FINAL STATS --------------------------------------------------|
+c
+c |---------------|-----------------|------------|------------|------------|------------|
+c | Threads       |      Total      |          0 |          1 |          2 |          3 |
+c |---------------|-----------------|------------|------------|------------|------------|
+c | Conflicts     |               0 |          0 |          0 |          0 |          0 |
+c | Decisions     |               1 |          1 |          0 |          0 |          0 |
+c | Propagations  |               5 |          5 |          0 |          0 |          0 |
+c | Avg_Trail     |                 |          0 |          0 |          0 |          0 |
+c | Avg_DL        |                 |          0 |          0 |          0 |          0 |
+c | Avg_Res       |                 |          0 |          0 |          0 |          0 |
+c | Avg_Res_Seen  |                 |          0 |          0 |          0 |          0 |
+c |---------------|-----------------|------------|------------|------------|------------|
+c | Exported      |               0 |          0 |          0 |          0 |          0 |
+c | Imported      |               0 |          0 |          0 |          0 |          0 |
+c | Good          |               0 |          0 |          0 |          0 |          0 |
+c | Purge         |               0 |          0 |          0 |          0 |          0 |
+c | Promoted      |               0 |          0 |          0 |          0 |          0 |
+c | Remove_Imp    |               0 |          0 |          0 |          0 |          0 |
+c | Blocked_Reuse |               0 |          0 |          0 |          0 |          0 |
+c |---------------|-----------------|------------|------------|------------|------------|
+c | Unaries       |                 |          0 |          0 |          0 |          0 |
+c | Binaries      |                 |          0 |          0 |          0 |          0 |
+c | Glues         |                 |          0 |          0 |          0 |          0 |
+c |---------------|-----------------|------------|------------|------------|------------|
+c | Orig_Seen     |             0 % |          0 |          0 |          0 |          0 |
+c | Diff Orig seen|                 |      X     | -        0 | -        0 | -        0 |
+c | Hamming       |             0 % |      X     |          0 |          0 |          0 |
+c |---------------|-----------------|------------|------------|------------|------------|
+
+s SATISFIABLE
+v 1 2 3 4 -5 0
+
+
+##################################################################
+###########[ Human readable result of the tile puzzle ]###########
+##################################################################
+
+Circuit will use these edges:
+(1, 2)
+(2, 3)
+(3, 4)
+(4, 1)
